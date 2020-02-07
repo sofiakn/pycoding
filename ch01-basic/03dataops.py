@@ -7,17 +7,18 @@
 #   '*' for multiplying
 #   '/' for dividing
 
-birthyear = 2001
-currentyear = 2020
+birthYear = 2001
+currentYear = 2020
 number = 5
 count = 10
 
-age = currentyear - birthyear
+age = currentYear - birthYear
 
 print(age)
 print(number * count)
 print(count / number)
 
 print(f"The sum of {number} and {count} is {number + count}")
+
 result = number + count
 print(f"The sum of {number} and {count} is {result}")

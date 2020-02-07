@@ -19,9 +19,3 @@ print(True) # This is not a string but a value of a special type called boolean
 print(False) # Also a boolean value. Boolean has only two values true/false
 
 # Four main data types are String, Integer, Float, Boolean
-
-
-
-
-
-
