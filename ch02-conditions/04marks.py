@@ -1,5 +1,6 @@
 '''
-ask score of 3 subjects, add scores, calculate percentage based on max score = 100
+ask score of 3 subjects (ln 7-9), add scores (ln 11), 
+calculate percentage based on max score = 100 (ln 13)
 if percentage is less than 50, show fail
 if percentage is greater than 80, show pass with reward, otherwise show pass
 '''
@@ -12,9 +13,9 @@ totalScore = scoreOne + scoreTwo + scoreThree
 
 percentage = totalScore / 300 * 100
 
-if totalScore < 50:
+if percentage < 50:
     print("Failed")
-elif totalScore > 80:
+elif percentage > 80:
     print("Passed with reward")
 else:
     print("Passed")
