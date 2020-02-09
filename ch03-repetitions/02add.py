@@ -2,11 +2,12 @@
 from _ast import If
 
 firstNumber = int(input("Enter first number (0 to stop): "))
-secondNumber = int(input("Enter second number (0 to stop): "))
-result = (firstNumber + secondNumber)
+
 
 while firstNumber != 0:
+    secondNumber = int(input("Enter second number: "))
+    result = (firstNumber + secondNumber)
     print(f"The sum of {firstNumber} and {secondNumber} is {result}")
+    print()
     firstNumber = int(input("Enter first number (0 to stop): "))
-    secondNumber = int(input("Enter second number (0 to stop): "))
 print("byebye")
