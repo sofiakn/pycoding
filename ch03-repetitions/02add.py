@@ -1,5 +1,4 @@
 #ask for 2 numbers, show sum, repeat process till the first number entered is 0, then stop execution.
-from _ast import If
 
 firstNumber = int(input("Enter first number (0 to stop): "))
 
