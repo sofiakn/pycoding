@@ -1,4 +1,3 @@
-
 # line() displays a line followed by message.
 def line(message):
     print("-------------", message)
@@ -14,7 +13,8 @@ number = read()
 while number != 0:
     line(f"{number} read as keyboard input.")
     for count in range(1,11):
-        print(f"{number} x {count} = {count * number}")
+        #print(f"{number} x {count} = {count * number}")
+        print("%d x %d = %d"%(number, count, count * number))
     line("table displayed.")
     number = read()
 
