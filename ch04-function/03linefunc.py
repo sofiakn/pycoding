@@ -1,20 +1,26 @@
 '''
-Introduction
-------------
++--------------+
+| Introduction |
++--------------+
 This is the introduction.
 
-Summary
--------
++---------+
+| Summary |
++---------+
 This is summary.
 
 '''
 
+def heading(s):
+    print("+-", ("-" * len(s)), "-+", sep='')
+    print("|", (s), "|")
+    print("+-" + ("-" * len(s)) + "-+")
 
-print("Introduction")
-print("------------")
+
+
+heading("Introduction")
 print("This is the introduction.")
 print()
-print("Summary")
-print("-------")
+heading("Summary")
 print("This is summary.")
 print()
