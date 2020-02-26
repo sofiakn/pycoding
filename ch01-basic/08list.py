@@ -12,7 +12,7 @@ line = "-ABcdef"
 print(len(line))
 for x in line:
     print(x)
-    
+
     
 line = "=" * 10
 print(line)

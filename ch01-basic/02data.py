@@ -3,7 +3,9 @@
 message = "This is a sample string"
 age = 18
 price = 2.98
+isOK = False;
 
 print(message)
 print(age)
 print(price)
+print(isOK)

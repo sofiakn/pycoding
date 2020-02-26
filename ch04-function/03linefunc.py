@@ -11,10 +11,17 @@ This is summary.
 
 '''
 
+lineStyle = "="
+
 def heading(s):
-    print("+-", ("-" * len(s)), "-+", sep='')
+    
+    def line():
+        print("+", lineStyle * (len(s) + 2), "+", sep='')
+    
+    
+    line()
     print("|", (s), "|")
-    print("+-" + ("-" * len(s)) + "-+")
+    line()
 
 
 
