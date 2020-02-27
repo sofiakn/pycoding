@@ -1,11 +1,13 @@
+from simplefunctions import *
+
 # line() displays a line followed by message.
 def line(message):
-    print("-------------", message)
+    print("*************", message)
     
 def read():
     return int(input("Enter a number for table (0 to exit): "))
 
-name = input("Enter your name: ")
+name = readNonEmptyString("Enter your name: ")
 print("Welcome", name)
 line("Welcome message displayed.")
 

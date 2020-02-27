@@ -4,7 +4,10 @@ def line():
     print("-------------")
     
 def readNonEmptyString(messageString):
-    return input(messageString)
+    result = input(messageString)
+    while result == "":
+        result = input(messageString)
+    return result
 
 name = readNonEmptyString("Enter your name: ")
 print("Welcome", name)
