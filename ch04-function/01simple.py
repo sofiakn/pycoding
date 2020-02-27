@@ -1,8 +1,12 @@
 
+# Draws a line
 def line():
     print("-------------")
+    
+def readNonEmptyString(messageString):
+    return input(messageString)
 
-name = input("Enter your name: ")
+name = readNonEmptyString("Enter your name: ")
 print("Welcome", name)
 line()
 
